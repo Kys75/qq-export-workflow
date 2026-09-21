@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qq-export-workflow"
+version = "0.1.0"
+description = "Local QQ NT database decryption and chat export workflow"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["fastmcp>=2.12,<3"]
+
+[project.scripts]
+qq-export = "qq_export_workflow.cli:main"
+qq-export-mcp = "qq_export_workflow.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["qq_export_workflow*"]

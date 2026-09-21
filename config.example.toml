@@ -1,0 +1,11 @@
+# All private state defaults outside the repository.
+source_dir = "~/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/nt_qq_REPLACE_ME/nt_db"
+state_dir = "~/.local/share/qq-export-workflow"
+key_file = "~/.local/share/qq-export-workflow/database.key"
+sqlcipher = "sqlcipher"
+header_bytes = 1024
+page_size = 4096
+kdf_iter = 4000
+hmac_algorithm = "SHA1"
+kdf_algorithm = "SHA512"
+timezone = "Asia/Shanghai"
