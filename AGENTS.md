@@ -1,5 +1,7 @@
 # Agent instructions
 
+This workflow targets Mac / macOS QQ NT only. Check the operating system before setup. Portable Python code or synthetic tests do not establish support for Windows, Linux or mobile QQ clients.
+
 Read README.md before configuring this workflow. Use a dedicated venv and keep configuration, keys, decrypted databases and exports outside this repository.
 
 Use synthetic tests for development. Do not inspect a user's key file, real database, process memory or chat transcript just to validate installation. Do not commit runtime files, local MCP config, account paths or copied conversation histories.

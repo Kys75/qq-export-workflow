@@ -1,4 +1,6 @@
-# QQ NT 本地导出工作流
+# QQ NT 本地导出工作流（macOS）
+
+**适用平台：Mac / macOS。** 完整工作流面向 Mac QQ NT 的数据目录、数据库格式与进程访问方式；不提供 Windows、Linux、iOS 或 Android QQ 的配置/导出流程。Python 核心或合成测试能在其他系统运行，不代表那些平台的 QQ 客户端受支持。
 
 把自己有权读取的 QQ NT 本地聊天记录解密为 SQLite，按会话和日期导出 Markdown，并通过本地 MCP 提供给 Coding Agent。仓库仅包含通用代码、配置模板和人工构造的测试数据；密钥、聊天数据库、联系人、导出结果都留在使用者自己的电脑上。
 
